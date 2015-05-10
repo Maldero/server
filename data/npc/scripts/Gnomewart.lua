@@ -23,7 +23,6 @@ local function creatureSayCallback(cid, type, msg)
 			player:setStorageValue(Storage.BigfootBurden.QuestLine, 10)
 		elseif player:getStorageValue(Storage.BigfootBurden.QuestLine) == 11 then
 			npcHandler:say("You have passed the test and are ready to create your soul melody. Talk to Gnomelvis in the east about it.", cid)
-			player:setStorageValue(Storage.BigfootBurden.QuestLine, 12)
 		end
 	end
 	return true
